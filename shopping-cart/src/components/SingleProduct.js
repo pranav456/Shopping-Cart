@@ -4,12 +4,10 @@ import Rating from "./Rating";
 import { CartState } from "../context/Context";
 
 const SingleProduct = ({ prod }) => {
-  console.log(CartState)
   const {
     state: { cart },
     dispatch,
   } = CartState();
-  // console.log(CartState())
   return (
     <div className="products">
       <Card>

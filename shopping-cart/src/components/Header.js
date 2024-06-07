@@ -1,5 +1,5 @@
 import React from "react";
-import { Button} from 'react-bootstrap'
+import { Button } from "react-bootstrap";
 import {
   Navbar,
   Container,
@@ -63,10 +63,11 @@ const Header = () => {
                       />
                     </span>
                   ))}
-                    <Link to="/cart">
-                        <Button style={{width:"95%",margin:"0 10px"}}>Go to Cart</Button>
-                    </Link>
-
+                  <Link to="/cart">
+                    <Button style={{ width: "95%", margin: "0 10px" }}>
+                      Go to Cart
+                    </Button>
+                  </Link>
                 </>
               ) : (
                 <span style={{ padding: 10 }}>Cart is Empty!</span>
